@@ -1,4 +1,4 @@
-name: Static Analysis
+name: Static Analysis New and Improved 
 
 # Run this workflow every time a new commit pushed to your repository and for pull requests
 on:
