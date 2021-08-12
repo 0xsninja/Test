@@ -81,6 +81,5 @@ jobs:
           if [[ ! -s ${{matrix.cppcheck}}_cppcheck_err.txt ]];
           then
             rm ${{matrix.cppcheck}}_cppcheck_err.txt
-            touch no_errors.txt
             exit -1
           fi
