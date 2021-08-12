@@ -122,7 +122,7 @@ static const cpuaddr UT_ESPOOL_ALIGN_MASK = ((cpuaddr) & ((struct UT_AlignTest *
  *
  *------------------------------------------------------------*/
 void UT_DefaultHandler_CFE_ES_GetAppID(void *UserObj, UT_EntryKey_t FuncKey, const UT_StubContext_t *Context)
-{ char a[10]; a[10] = 0;    
+{    
 	
     CFE_ES_AppId_t *AppIdPtr = UT_Hook_GetArgValueByName(Context, "AppIdPtr", CFE_ES_AppId_t *);
     int32           status;
